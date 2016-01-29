@@ -1,0 +1,26 @@
+div>div {
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+.amarillo {
+	background-color: yellow; 
+}
+.rojo {
+	background-color: red;
+}
+.azul {
+	background-color: blue;
+}
+.marco {
+	width: 800px;
+	margin-top: 20px;
+	border: 2px green solid;
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
